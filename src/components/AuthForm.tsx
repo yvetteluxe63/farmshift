@@ -51,9 +51,7 @@ const AuthForm = ({ onAuthSuccess, onBack }: AuthFormProps) => {
         <Card>
           <CardHeader className="text-center">
             <CardTitle className="text-2xl">Welcome to FarmShift</CardTitle>
-            <CardDescription>
-              Connect with Supabase to enable full authentication
-            </CardDescription>
+           
           </CardHeader>
           <CardContent>
             <Tabs defaultValue="login" className="w-full">
