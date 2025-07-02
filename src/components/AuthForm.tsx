@@ -147,11 +147,7 @@ const AuthForm = ({ onAuthSuccess, onBack }: AuthFormProps) => {
               </TabsContent>
             </Tabs>
 
-            <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-              <p className="text-sm text-blue-800 text-center">
-                <strong>Demo Mode:</strong> Connect to Supabase for full authentication functionality
-              </p>
-            </div>
+            
           </CardContent>
         </Card>
       </div>
